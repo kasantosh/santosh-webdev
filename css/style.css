@@ -407,6 +407,10 @@ body {
   transform: rotate(-135deg);
   top: 0; }
 
+@media (max-width: 56.25em) {
+  .navigation {
+    display: none; } }
+
 .portfolio {
   background-color: #ebe9e9;
   padding: 5rem 0;
