@@ -1,6 +1,6 @@
-/*
-0 - 600px     : PHONE / $breakpoint = (phone)
-601 - 900px   : TABLET PORTRAIT / $breakpoint = (tab-port)
+/* 1em = 16px
+0 - 600px     : PHONE / $breakpoint = (phone) 37.5em
+601 - 900px   : TABLET PORTRAIT / $breakpoint = (tab-port) 56.25em
 901 - 1200px  : TABLET LANDSCAPE / $breakpoint = (tab-land)
 1201 - 1800px : Current media queries apply at this range
 1800px +      : LARGE DESKTOPS / $breakpoint = (big-desktop)
@@ -47,9 +47,18 @@ body {
 
 html {
   font-size: 62.5%; }
-  @media (max-width: 600px) {
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 37.5%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   line-height: 1.7;
@@ -216,14 +225,11 @@ body {
   .row .col-1-of-4 {
     width: calc((100% - 3 * 6rem) / 4); }
   .row .col-2-of-3 {
-    width: calc(
- 2 * (100% - 2 * 6rem) / 3 + 6rem); }
+    width: calc( 2 * (100% - 2 * 6rem) / 3 + 6rem); }
   .row .col-2-of-4 {
-    width: calc(
- 2 * (100% - 3 * 6rem) / 4 + 6rem); }
+    width: calc( 2 * (100% - 3 * 6rem) / 4 + 6rem); }
   .row .col-3-of-4 {
-    width: calc(
- 3 * (100% - 3 * 6rem) / 4 + (2 * 6rem)); }
+    width: calc( 3 * (100% - 3 * 6rem) / 4 + (2 * 6rem)); }
 
 .header__logo-size {
   width: 6rem;
