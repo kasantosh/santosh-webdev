@@ -186,13 +186,19 @@ body {
   height: auto;
   scroll-behavior: smooth; }
   .about__box {
-    background-image: linear-gradient(105deg, rgba(248, 246, 246, 0.9) 65%, transparent 35%), url("../../img/about-image.jpg");
+    background-image: linear-gradient(105deg, rgba(248, 246, 246, 0.9) 65%, transparent 35%), url("../img/about-image.jpg");
     background-size: cover;
     background-position: center;
     height: auto; }
+    @media (max-width: 37.5em) {
+      .about__box {
+        background-image: linear-gradient(rgba(248, 246, 246, 0.8), rgba(248, 246, 246, 0.8)), url("../img/about-image.jpg"); } }
     .about__box-text {
       width: 70%;
       padding: 10rem 5rem; }
+      @media (max-width: 37.5em) {
+        .about__box-text {
+          width: 100%; } }
     .about__box-text-para {
       font-size: 1.6rem; }
 
