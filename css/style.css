@@ -108,9 +108,9 @@ body {
     left: 0;
     width: 100%;
     backface-visibility: hidden;
+    overflow: hidden;
     border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(32, 32, 32, 0.2);
-    overflow: hidden; }
+    box-shadow: 0 1.5rem 4rem rgba(32, 32, 32, 0.2); }
     .card__side--front {
       background-color: #f8f6f6; }
     .card__side--back {
@@ -144,7 +144,7 @@ body {
       background-image: linear-gradient(to right bottom, #828283, #515153), url("../img/portfolio-f-3.jpg"); }
   .card__details {
     padding: 2rem;
-    margin-bottom: 8rem; }
+    margin-bottom: 5rem; }
   .card__button {
     position: absolute;
     top: 50%;
@@ -188,7 +188,8 @@ body {
         top: 10rem;
         left: 33rem; }
       .card__heading {
-        position: relative; } }
+        position: relative;
+        margin-top: 3rem; } }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
