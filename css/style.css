@@ -294,6 +294,10 @@ body {
       .contactdiv__form {
         width: 100%;
         margin: 0 auto; } }
+  .contactdiv__direct-info {
+    color: #555;
+    font-size: 1.5rem;
+    font-weight: 700; }
 
 .footer {
   background-color: #333;

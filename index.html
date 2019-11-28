@@ -37,7 +37,7 @@
         </li>
 
         <li class="navigation__item">
-          <a href="#footer" class="navigation__link">Contact</a>
+          <a href="#contact" class="navigation__link">Contact</a>
         </li>
 
         <li class="navigation__item">
@@ -359,27 +359,29 @@
 
         <div class="contactdiv">
           <div class="contactdiv__form">
-            <form action="#" class="form">
+            <form action="#" class="form" method="post" name="myemailform">
 
               <div class="heading-primary mb-small">
                 Drop me a line!
               </div>
               <div class="form__group">
-                <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+                <input type="text" class="form__input" placeholder="Full Name" id="name" name="name" required>
                 <label for="name" class="form__label">Full Name</label>
               </div>
 
               <div class="form__group">
-                <input type="email" class="form__input" placeholder="Email" id="email" required>
+                <input type="email" class="form__input" placeholder="Email" id="email" name="email" required>
                 <label for="email" class="form__label">Email Address</label>
               </div>
 
               <div class="form__group">
-                <textarea placeholder="Your message" rows="5" class="form__textarea" required></textarea>
+                <textarea placeholder="Your message" rows="5" class="form__textarea" name="message" required></textarea>
               </div>
-              <button class="form__submit btn btn--white" type="submit">Submit &rarr;</button>
+              <button class="form__submit btn btn--white" type="submit" value="Send Form">Submit &rarr;</button>
 
             </form>
+            <p class="contactdiv__direct-info">
+              OR Email me directly at kasantosh@gmail.com <br>OR Call 647.783.2421</p>
           </div>
         </div>
       </div>
