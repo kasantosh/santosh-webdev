@@ -550,8 +550,7 @@ body {
   padding: 5rem;
   scroll-behavior: smooth; }
   .skills__box {
-    margin: 0 auto;
-    justify-content: center; }
+    text-align: center; }
   .skills__icon-box {
     display: inline-block;
     width: 20rem;
