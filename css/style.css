@@ -434,8 +434,8 @@ body {
   height: 6rem;
   width: 6rem;
   position: fixed;
-  top: 6rem;
-  right: 6rem;
+  top: 8rem;
+  right: 8rem;
   border-radius: 50%;
   z-index: 2000;
   box-shadow: 0 1rem 2rem rgba(32, 32, 32, 0.2);
@@ -446,8 +446,8 @@ body {
   height: 4rem;
   width: 4rem;
   position: fixed;
-  top: 7rem;
-  right: 7rem;
+  top: 9rem;
+  right: 9rem;
   z-index: 1000;
   background-image: radial-gradient(#333, #202020);
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
@@ -463,8 +463,8 @@ body {
 
 .navigation__list {
   position: fixed;
-  top: 16%;
-  right: 0;
+  top: 18%;
+  right: 1.5%;
   list-style: none;
   text-align: center; }
 
@@ -489,7 +489,7 @@ body {
   color: #d13a3a; }
 
 .navigation__checkbox:checked ~ .navigation__background {
-  transform: translate(-8%, 430%) scaleX(5) scaleY(7);
+  transform: translate(-12%, 380%) scaleX(4.5) scaleY(8);
   opacity: 0.5;
   border-radius: 1px; }
 
