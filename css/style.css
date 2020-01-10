@@ -541,6 +541,9 @@ body {
   padding: 5rem 0;
   height: auto;
   scroll-behavior: smooth; }
+  .portfolio__description {
+    text-align: center;
+    font-size: 1.6rem; }
 
 .skills {
   background-image: linear-gradient(to bottom, rgba(245, 66, 66, 0.9), rgba(128, 24, 24, 0.9)), url(../img/skills-coding.jpg);
