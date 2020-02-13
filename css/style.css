@@ -130,17 +130,17 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     overflow: hidden; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #f54242, #801818), url("../img/portfolio-r-1.jpg"); }
+      background-image: linear-gradient(to right bottom, #f54242, #801818), url("../img/portfolio-f-sp.jpg"); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #828283, #515153), url("../img/portfolio-r-2.jpg"); }
+      background-image: linear-gradient(to right bottom, #828283, #515153), url("../img/portfolio-r-1.jpg"); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #f54242, #801818), url("../img/portfolio-r-3.jpg"); }
+      background-image: linear-gradient(to right bottom, #f54242, #801818), url("../img/portfolio-f-1.jpg"); }
     .card__picture--4 {
-      background-image: linear-gradient(to right bottom, #828283, #515153), url("../img/portfolio-f-1.jpg"); }
+      background-image: linear-gradient(to right bottom, #828283, #515153), url("../img/portfolio-r-2.jpg"); }
     .card__picture--5 {
-      background-image: linear-gradient(to right bottom, #f54242, #801818), url("../img/portfolio-f-2.jpg"); }
+      background-image: linear-gradient(to right bottom, #f54242, #801818), url("../img/portfolio-r-3.jpg"); }
     .card__picture--6 {
-      background-image: linear-gradient(to right bottom, #828283, #515153), url("../img/portfolio-f-3.jpg"); }
+      background-image: linear-gradient(to right bottom, #828283, #515153), url("../img/portfolio-f-2.jpg"); }
   .card__details {
     padding: 2rem;
     margin-bottom: 5rem; }
