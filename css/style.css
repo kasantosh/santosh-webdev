@@ -345,7 +345,11 @@ body {
     flex-wrap: wrap; }
     .graphic__box-image {
       width: 20rem;
+      height: auto;
       border: 1px solid #dfdfdf;
+      width: 20rem !important;
+      height: 100%;
+      vertical-align: middle;
       transition: all 0.5s; }
       .graphic__box-image:hover {
         transform: scale(3); }
